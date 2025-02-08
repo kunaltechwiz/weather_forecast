@@ -19,7 +19,7 @@ function renderCalendar() {
   
   // Weather API
   async function getWeatherData() {
-    const apiKey = '64d0ed94047a465ded27a488cacf2b1a'; // Replace with your API Key
+    const apiKey = '{API Key}'; // Replace with your API Key
   
     // Get user-entered location from the input field
     const location = document.getElementById('location').value;
